@@ -27,6 +27,6 @@ This work is licensed under a
 
 @Kekule.load
 
-@[Kekule.load](/media/Ethanol.mol)
+@[Kekule.load](media/Ethanol.mol)
 
 
