@@ -28,6 +28,6 @@ This work is licensed under a
 
 ## Woher kommt der Kater?
 
-@[Kekule.load](/media/Ethanol.mol)
+@[Kekule.load](media/Ethanol.mol)
 
 
