@@ -13,32 +13,7 @@ classroom: disable
 
 mode: Presentation
 
-@Kekule.load: @Kekule.load_(@uid,@0)
-
-@Kekule.load_
-<div id="structureContainer_@0"></div>
-
-<script>
-// Load the XYZ file from a URL
-Kekule.IO.loadUrlData('@1', (mol, success) => {
-if (!success) {
-  document.getElementById("structureContainer_@0").innerHTML = 'Failed to load @1';
-  return;
-}
-
-var viewer = new Kekule.ChemWidget.Viewer(document);
-viewer.setDimension('100%', '60vh');
-viewer.appendToElem(document.getElementById('structureContainer_@0')).setChemObj(mol);  
-viewer.setAutofit(true);
-viewer.setEnableToolbar(true);
-viewer.setRenderType(Kekule.Render.RendererType.R3D);
-});
-
-console.log("loading file", Kekule)
-
-</script>
-
-@end
+import: https://github.com/LiaTemplates/KekuleJS/blob/master/README.md
 
 -->
 
@@ -53,8 +28,6 @@ This work is licensed under a
 
 ## Woher kommt der Kater?
 
-@Kekule.load
-
-@[Kekule.load](media/Ethanol.mol)
+@[Kekule.load](/media/Ethanol.mol)
 
 
