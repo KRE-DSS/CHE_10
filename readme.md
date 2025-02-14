@@ -55,6 +55,8 @@ In den Leberzellen existiert ein Enzym mit dem Namen Alkohol-Dehydrogenase (ADH)
 > **Aufgabe**
 > Vergleiche den molekularen Aufbau des Ethanol-Moleküls mit dem Ethanal-Molekül. Gehe dabei besonders auf die Unterschiede zwischen den beiden Molekülen ein.
 
+Ethanol:
+
 ``` text @Kekule.load3d(mol)
 702
   -OEChem-01302504523D
@@ -79,6 +81,8 @@ In den Leberzellen existiert ein Enzym mit dem Namen Alkohol-Dehydrogenase (ADH)
   3  8  1  0  0  0  0
 M  END
 ```
+
+Ethanal:
 
 ``` text @Kekule.load3d(mol)
 177
