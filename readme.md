@@ -57,7 +57,7 @@ In den Leberzellen existiert ein Enzym mit dem Namen Alkohol-Dehydrogenase (ADH)
 
 Ethanol:
 
-``` text @Kekule.load3d(mol)
+``` @Kekule.molecule3d
 702
   -OEChem-01302504523D
 
@@ -82,11 +82,9 @@ Ethanol:
 M  END
 ```
 
-### Test
-
 Ethanal:
 
-``` text @Kekule.load3d(mol)
+``` @Kekule.molecule3d
 177
   -OEChem-02142504313D
 
