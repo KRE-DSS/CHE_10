@@ -30,6 +30,6 @@ This work is licensed under a
 
 Daher!
 
-@[Kekule.load](https://github.com/KRE-DSS/CHE_10/blob/main/media/Ethanol.mol)
+@[Kekule.load](https://github.com/KRE-DSS/CHE_10/tree/main/media/Ethanol.mol)
 
 
